@@ -30,15 +30,6 @@ public class array2d {
             System.out.print("\n");
         }
     }
-    public static void toConsole2D(int[][] array2d){
-        for (int i = 0; i < array2d.length; i++) {
-            System.out.print("{");
-            for (int j = 0; j < array2d[i].length; j++) {
-                System.out.print(array2d[i][j]+" ");
-            }
-            System.out.print("} ");
-        }
-    }
     public static int[] removeFirstNIndex(int[] inputArray1D,int n){
         int[] outputArray = Arrays.copyOfRange(inputArray1D, n, inputArray1D.length);
         return outputArray;
